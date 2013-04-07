@@ -8,17 +8,10 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		MakeTea myMakeTea = new MakeTea();
-		myMakeTea.boilWater();
-		myMakeTea.brew();
-		myMakeTea.pourInCup();
-		myMakeTea.addCondiments();
-		
+		myMakeTea.prepare();
 		
 		MakeCoffee myMakeCoffee = new MakeCoffee();
-		myMakeCoffee.boilWater();
-		myMakeCoffee.brew();
-		myMakeCoffee.pourInCup();
-		myMakeCoffee.addCondiments();
+		myMakeCoffee.prepare();
 	}
 
 }
