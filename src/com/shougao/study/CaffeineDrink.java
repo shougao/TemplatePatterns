@@ -36,5 +36,14 @@ public abstract class CaffeineDrink {
 	boolean hook(){
 		return false;
 	}
-	
+	/**
+	 * 经典的模板模式的模板过程定义before, execte, after.
+	 public abstract void executeMain();  
+     
+	    public void execute() {  
+	        beforeAction();  
+	        executeMain();  
+	        afterAction();  
+	    } 
+	 */
 }
